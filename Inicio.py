@@ -80,7 +80,7 @@ El bloc de notas abrirá en un momento
     elif window == "E4":
         EE = getpass.getpass("Ingresa la palabra secreta: ")
         if EE == "ferel":
-            print("Aywey esto no está terminado, pero yo bien cuchis lover we")
+            print("bueno, encontraste el primer easter egg, el segundo se encuentra en acerca del sistema, la pista es:  F")
         elif EE == "babosa":
             print("Échale ganas we")
         else:
