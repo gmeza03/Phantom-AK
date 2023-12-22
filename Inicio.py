@@ -1,6 +1,5 @@
 import msvcrt
 import getpass
-from acerca_sistema import mostrar_informacion_tecnica
 import subprocess
 import sys
 from datetime import datetime
@@ -93,7 +92,7 @@ El bloc de notas abrirá en un momento
         
 
     elif window == "A3":
-        mostrar_informacion_tecnica()
+         subprocess.run(["python", "acerca_sistema.py"])
 
     elif window == "R5":
         import Musica
