@@ -1,0 +1,14 @@
+Hey, bienvenido a Phantom AK 1.8
+
+Estos son los pasos que debes de seguir para disfrutar de tu instalacion Nueva:
+
+1- Descompimir la carpeta "Musica" para poder usar el reproductor
+NOTA: Descomprimirlo en el mismo lugar para evitar problemas
+
+2- Descargar las librerias Pygame y psutil
+
+Estos son indispensables
+
+Difruta PhantomAK!
+
+-gmeza03
