@@ -1,4 +1,4 @@
-Hey, bienvenido a Phantom AK 1.8
+Hey, bienvenido a Phantom AK 1.8.1
 
 Estos son los pasos que debes de seguir para disfrutar de tu instalacion Nueva:
 
@@ -6,6 +6,8 @@ Estos son los pasos que debes de seguir para disfrutar de tu instalacion Nueva:
 NOTA: Descomprimirlo en el mismo lugar para evitar problemas
 
 2- Descargar las librerias Pygame y psutil
+
+3- La contraseña es 3112003
 
 Estos son indispensables
 
