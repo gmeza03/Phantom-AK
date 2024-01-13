@@ -5,15 +5,15 @@ import platform
 
 def mostrar_informacion_tecnica():
     def on_key_press(event):
-        if event.char.lower() == 'f':
+        if event.char.lower() == 'j':
             actualizar_mensaje_ferel()
 
     def actualizar_mensaje_ferel():
         mensaje_ferel = f"""
-        Phantom AK Codename Ferel 
-        (Compilacion PA-1.8.0.227)
+        Phantom AK Codename Jazel 
+        (Compilacion PA-1.8.1.227)
         
-        Este programa está dedicado a Fernanda<3
+        Este programa está dedicado a Jazmin<3
         
         Escrito el 21 De diciembre del 2023
         
@@ -29,8 +29,8 @@ def mostrar_informacion_tecnica():
     ventana_info.title("Acerca De Phantom AK")
 
     mensaje_inicial = f"""
-        Phantom AK 1.8 
-        (Compilacion PA-1.8.0.227)
+        Phantom AK 1.8.1 
+        (Compilacion PA-1.8.1.227)
         
         El programa PhantomAK se distribuye bajo los términos de
         la Licencia Pública General de GNU
