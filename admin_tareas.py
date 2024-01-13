@@ -21,7 +21,7 @@ def mostrar_info_sistema():
     etiqueta_sistema = tk.Label(ventana_info, text=f"Sistema: {sistema_info.system} {sistema_info.release}")
     etiqueta_sistema.pack()
 
-    etiqueta_phantom = tk.Label(ventana_info, text="Phantom AK 1.8")
+    etiqueta_phantom = tk.Label(ventana_info, text="Phantom AK 1.8.1")
     etiqueta_phantom.pack()
 
     etiqueta_procesos = tk.Label(ventana_info, text="Informacion de Procesos:")
