@@ -49,7 +49,7 @@ primera_vez = True
 
 while True:
     if primera_vez:
-        print("Bienvenido a PhantomAK 1.8")
+        print("Bienvenido a PhantomAK 1.8.1")
         print(nombre)
         print("Creado por Gael Meza")
         print("Hoy es:")
@@ -80,7 +80,7 @@ El bloc de notas abrirá en un momento
     elif window == "E4":
         EE = getpass.getpass("Ingresa la palabra secreta: ")
         if EE == "ferel":
-            print("bueno, encontraste el primer easter egg, el segundo se encuentra en acerca del sistema, la pista es:  F")
+            print("bueno, encontraste el primer easter egg, el segundo se encuentra en acerca del sistema, la pista es:  J")
         elif EE == "babosa":
             print("Échale ganas we")
         else:
