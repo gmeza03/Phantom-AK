@@ -39,7 +39,7 @@ primera_vez = True
 
 while True:
     if primera_vez:
-        print("Bienvenido a PhantomAK Codename B-Star")
+        print("Bienvenido a PhantomAK 1.9")
         print(nombre)
         print("Creado por Gael Meza")
         print("Hoy es:")
