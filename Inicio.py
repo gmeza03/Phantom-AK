@@ -1,7 +1,6 @@
-import msvcrt
 import getpass
 import subprocess
-import sys
+import platform
 from datetime import datetime
 import time
 
@@ -10,20 +9,11 @@ def mostrar_menu_apartados():
 Apartados:
 
 - B1(BLOC DE NOTAS)
-
 - C2(CALCULADORA)
-  
 - A3(ACERCA DEL SISTEMA)
-
-- E4(EASTEREGGS)
-
-- R5(REPRODUCTOR)
-
-- A6(ADMINISTRADOR DE RECURSOS(BETA))
-
-- A7(APAGADO)
-          
-
+- R4(REPRODUCTOR)
+- A5(ADMINISTRADOR DE RECURSOS(BETA))
+- A6(APAGADO)
     ''')
 
 print('''
@@ -49,7 +39,7 @@ primera_vez = True
 
 while True:
     if primera_vez:
-        print("Bienvenido a PhantomAK 1.8.1")
+        print("Bienvenido a PhantomAK Codename B-Star")
         print(nombre)
         print("Creado por Gael Meza")
         print("Hoy es:")
@@ -64,10 +54,7 @@ while True:
 El bloc de notas abrirá en un momento
     ''')
 
-    
-
-    window = str(input("¿Qué apartado deseas abrir (M imprime los apartados) ? : ")) 
-   
+    window = str(input("¿Qué apartado deseas abrir (M imprime los apartados) ? : "))
 
     if window == "":
         print("Por favor, ingrese un apartado.")
@@ -77,29 +64,29 @@ El bloc de notas abrirá en un momento
         print(B1)
         import Bloc
 
-    elif window == "E4":
-        EE = getpass.getpass("Ingresa la palabra secreta: ")
-        if EE == "ferel":
-            print("bueno, encontraste el primer easter egg, el segundo se encuentra en acerca del sistema, la pista es:  J")
-        elif EE == "babosa":
-            print("Échale ganas we")
-        else:
-            print("Palabra clave incorrecta")
-    
+    #elif window == "E4":
+        #print ("No se supone que esto deberia estar pasando")
+
     elif window == "C2":
-        print("La Calculadora iniciara en un momento...")
+        print("La Calculadora iniciará en un momento...")
         subprocess.run(["python", "calculadora.py"])
-        
 
     elif window == "A3":
-         subprocess.run(["python", "acerca_sistema.py"])
+        subprocess.run(["python", "acerca_sistema.py"])
 
-    elif window == "R5":
+    elif window == "R4":
         import Musica
 
-    elif window == "A7":
-        import os
-        os.system('shutdown -s')
-
     elif window == "A6":
+        system_platform = platform.system()
+        if system_platform == "Windows":
+            # Comando para apagar en Windows
+            subprocess.run(["shutdown", "/s", "/t", "0"])
+        elif system_platform == "Linux" or system_platform == "Darwin":
+            # Comando para apagar en Linux o Mac
+            subprocess.run(["shutdown", "-h", "now"])
+        else:
+            print("Apagado no compatible con el sistema: {system_platform}")
+
+    elif window == "A5":
         exec(open("admin_tareas.py").read())
