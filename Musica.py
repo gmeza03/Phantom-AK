@@ -10,7 +10,7 @@ ventana = tk.Tk()
 ventana.title("Reproductor de Música")
 
 # Carpeta de música
-carpeta_musica = os.path.expanduser("~/Documents/Phantom-AK-1.8/Musica")
+carpeta_musica = os.path.expanduser("~/Documents/Phantom-AK-1.9/Musica")
 
 
 # Obtener la lista de archivos de música en la carpeta
