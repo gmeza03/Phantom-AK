@@ -10,7 +10,7 @@ def mostrar_informacion_tecnica():
 
     def actualizar_mensaje_ferel():
         mensaje_ferel = f"""
-        Phantom AK Codename Jazel 
+        Phantom AK Codename Ferel
         (Compilacion PA-1.8.1.227)
         
         Este programa está dedicado a Jazmin<3
