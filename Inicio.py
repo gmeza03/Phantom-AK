@@ -12,7 +12,7 @@ Apartados:
 - C2(CALCULADORA)
 - A3(ACERCA DEL SISTEMA)
 - R4(REPRODUCTOR)
-- A5(ADMINISTRADOR DE RECURSOS(BETA))
+- C5 (CLIMA)
 - A6(APAGADO)
     ''')
 
@@ -65,7 +65,7 @@ El bloc de notas abrirá en un momento
         import Bloc
 
     #elif window == "E4":
-        #print ("No se supone que esto deberia estar pasando")
+        #print ("Oye esto dejalo para la 2.0, no ahora")
 
     elif window == "C2":
         print("La Calculadora iniciará en un momento...")
@@ -88,5 +88,5 @@ El bloc de notas abrirá en un momento
         else:
             print("Apagado no compatible con el sistema: {system_platform}")
 
-    elif window == "A5":
+    elif window == "C5":
         exec(open("admin_tareas.py").read())
