@@ -89,4 +89,4 @@ El bloc de notas abrirá en un momento
             print("Apagado no compatible con el sistema: {system_platform}")
 
     elif window == "C5":
-        exec(open("admin_tareas.py").read())
+        exec(open("clima.py").read())
