@@ -6,14 +6,14 @@ import platform
 def mostrar_informacion_tecnica():
     def on_key_press(event):
         if event.char.lower() == 'f':
-            actualizar_mensaje_ferel()
+            actualizar_mensaje()
 
-    def actualizar_mensaje_ferel():
-        mensaje_ferel = f"""
-        Phantom AK Codename Ferel
+    def actualizar_mensaje():
+        mensaje = f"""
+        Phantom AK Codename nose
         (Compilacion PA-1.9.0.227)
         
-        Este programa está dedicado a Fer<3
+        Este programa se ha roto xd
         
         Escrito el 21 De diciembre del 2023
         
